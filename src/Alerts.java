@@ -19,7 +19,7 @@ public class Alerts {
 //	This is click on okay
 		driver.switchTo().alert().accept();
 //  This is to click on cancel
-//		driver.switchTo().alert().dismiss();
+		driver.switchTo().alert().dismiss();
 		
 
 		
