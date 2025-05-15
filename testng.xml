@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="MAO_Torrid">
+  <classes>
+  	<class name="MAO_Torrid.MAO_LoginTest"/>
+  	<class name="MAO_Torrid.Release_Check"/>
+  	<!--  <methods>
+  	<include name="mao_LoginTest"/>
+  	</methods>--> 
+  	</classes>
+  	
+  	</test>
+  	
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
