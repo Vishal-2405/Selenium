@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test thread-count="5" name="MAO_Torrid(failed)">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="action(failed)">
     <classes>
-      <class name="MAO_Torrid.Release_Check">
+      <class name="parallelTestDemo.Actionsdemo">
         <methods>
-          <include name="release_check"/>
+          <include name="action"/>
         </methods>
-      </class> <!-- MAO_Torrid.Release_Check -->
-      <class name="MAO_Torrid.MAO_LoginTest">
-        <methods>
-          <include name="mao_LoginTest"/>
-        </methods>
-      </class> <!-- MAO_Torrid.MAO_LoginTest -->
+      </class> <!-- parallelTestDemo.Actionsdemo -->
     </classes>
-  </test> <!-- MAO_Torrid(failed) -->
+  </test> <!-- action(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TD_CSR_Returns.Return_with_receipt">
+      <class name="parallelTestDemo.Actionsdemo">
         <methods>
-          <include name="return_with_receipt"/>
+          <include name="action"/>
         </methods>
-      </class> <!-- TD_CSR_Returns.Return_with_receipt -->
+      </class> <!-- parallelTestDemo.Actionsdemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

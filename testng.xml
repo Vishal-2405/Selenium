@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Suite">
-  <test  name="MAO_Torrid">
+<suite parallel = "tests" name="Suite">
+ 
+  	
+  	<test  name="BypassCaptcha">
   <classes>
-  	<class name="MAO_Torrid.MAO_LoginTest"/>
-  	<class name="MAO_Torrid.Release_Check"/>
-  	<!--  <methods>
-  	<include name="mao_LoginTest"/>
-  	</methods>--> 
+  	<class name="parallelDemoTest.BypassCaptcha"/>  	
+  	
   	</classes>
   	
   	</test>
